@@ -18,15 +18,6 @@ Este projeto demonstra a implementação de um sistema CRUD (Create, Read, Updat
 - **Hive Flutter**: Extensão do Hive para integração com Flutter
 - **Build Runner**: Ferramenta para geração de código
 
-## 📦 Pré-requisitos
-
-Antes de começar, certifique-se de ter instalado:
-
-- Flutter SDK (versão 3.6.0 ou superior)
-- Dart SDK (incluído no Flutter)
-- Um editor de código (VS Code, Android Studio, etc.)
-- Emulador ou dispositivo físico para testes
-
 ## 🔧 Instalação
 
 ### 1. Clone o repositório
@@ -260,4 +251,5 @@ dependencies:
 ## 📄 Licença
 
 Este projeto é um exemplo educacional e está disponível para uso livre.
+
 
