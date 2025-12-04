@@ -2,7 +2,7 @@
 
 [![Flutter](https://img.shields.io/badge/Flutter-3.6.0+-02569B?style=for-the-badge&logo=flutter&logoColor=white)](https://flutter.dev)
 [![Dart](https://img.shields.io/badge/Dart-3.6.0+-0175C2?style=for-the-badge&logo=dart&logoColor=white)](https://dart.dev)
-[![Hive](https://img.shields.io/badge/Hive-2.2.3-FFA500?style=for-the-badge&logo=hive&logoColor=white)](https://docs.hivedb.dev)
+[![Hive](https://img.shields.io/badge/Hive-2.2.3-FFA500?style=for-the-badge&logo=hive&logoColor=white)](https://pub.dev/packages/hive)
 [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
 Um aplicativo de lista de tarefas desenvolvido em Flutter utilizando Hive como banco de dados local para persistência de dados.
