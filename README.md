@@ -27,6 +27,9 @@ git clone <url-do-repositorio>
 cd todo_hive
 ```
 
+ou crie um projeto novo com `ctrl+shift+p`, escolha `Empty Application`, formeça um nome tipo `todo_hive`.
+Sucessivamente copie e cole os arquivos na pasta lib e substitua o `pubspec.yaml`
+
 ### 2. Instale as dependências
 
 ```bash
