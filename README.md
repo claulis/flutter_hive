@@ -18,6 +18,53 @@ Este projeto demonstra a implementação de um sistema CRUD (Create, Read, Updat
 - **Hive Flutter**: Extensão do Hive para integração com Flutter
 - **Build Runner**: Ferramenta para geração de código
 
+## Hive
+
+No Flutter, o Hive é um banco de dados NoSQL local, escrito totalmente em Dart, projetado para ser rápido, leve e fácil de usar.
+Ele é muito utilizado para persistência de dados offline em aplicativos Flutter.
+
+🔹 Principais características do Hive
+
+- NoSQL: Armazena dados como pares chave-valor ou objetos complexos.
+- Alto desempenho: Extremamente rápido para leitura e escrita.
+- Offline: Funciona sem internet.
+- Cross-platform: Compatível com Android, iOS, Web e Desktop.
+- Sem dependência de código nativo: Não precisa de SQLite ou bibliotecas externas.
+- Suporte a criptografia: Pode armazenar dados de forma segura.
+
+
+🔹 Quando usar o Hive
+
+- Armazenar configurações do app.
+- Guardar listas pequenas ou médias de dados.
+- Criar cache local para evitar requisições repetidas à API.
+- Persistir objetos complexos (com adapters).
+
+### Hive Flutter vs. SQLite vs. PostgresSQL
+
+### 📊 Comparação entre Hive, SQLite e PostgreSQL
+
+| Característica | Hive (Flutter) | SQLite | PostgreSQL |
+|----------------|------------------------|----------------|---------------------|
+| **Tipo** | Banco NoSQL (key-value), escrito em Dart | Banco relacional embutido (serverless) | Banco relacional avançado (client-server, ORDBMS) |
+| **Armazenamento** | Arquivos locais simples (Boxes) | Arquivo único `.sqlite` | Sistema de arquivos com múltiplos bancos e diretórios |
+| **Escalabilidade** | Limitado a apps leves, não ideal para grandes volumes | Limitado ao tamanho do arquivo (~281 TB, mas não prático para Big Data) | Escalável horizontal e verticalmente (replicação, sharding) |
+| **Desempenho** | Muito rápido para operações locais simples | Rápido para operações locais e pequenas bases | Alto desempenho para OLTP e OLAP, suporta consultas complexas |
+| **Transações** | Não possui ACID completo (foco em simplicidade) | Suporta ACID | Suporta ACID completo com MVCC |
+| **Linguagem de Consulta** | API simples (sem SQL, apenas key-value) | SQL padrão (com algumas limitações) | SQL padrão + extensões avançadas |
+| **Casos de Uso** | Apps móveis leves, cache local, protótipos | Aplicativos móveis/desktop, armazenamento local confiável | Sistemas corporativos, web, analytics, APIs |
+| **Vantagens** | Simplicidade, integração nativa com Flutter, sem dependências | Portabilidade, confiabilidade, zero configuração | Recursos avançados, extensibilidade, robustez, multiusuário |
+| **Desvantagens** | Pouco suporte a consultas complexas, não indicado para grandes volumes | Não suporta múltiplos acessos concorrentes pesados | Mais complexo de configurar e manter |
+| **Licença** | Open Source (MIT-like) | Domínio público | PostgreSQL License (similar a MIT) |
+
+---
+
+### 🔎 Principais Insights
+- **Hive (Flutter)** → Melhor para **aplicativos móveis simples** que precisam de armazenamento rápido e leve, sem dependências externas.  
+- **SQLite** → Ideal para **aplicativos locais** que exigem confiabilidade e suporte a SQL, mas sem necessidade de escalabilidade massiva.  
+- **PostgreSQL** → A escolha certa para **sistemas robustos e multiusuário**, com suporte a consultas complexas, replicação e alta escalabilidade.  
+
+
 ## 🔧 Instalação
 
 ### 1. Clone o repositório
